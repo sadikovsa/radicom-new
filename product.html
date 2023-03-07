@@ -67,25 +67,98 @@
 </header>
 
 <main class="main">
-  <section class="services">
+
+  <section class="product">
     <div class="container">
-        <h2 class="title mobile">
-            <a href="#" class="back"><i class="fa-solid fa-chevron-left"></i></a>
-            Услуги
-        </h2>
-        <div class="services__wrapper">
-            <a href="#" class="services__item" data-toggle="modal" data-target="services-1" style="background-image: url('./images/services/services-1.jpg')">
-                <p class="services__title">Аренда раций<span><i class="fa-solid fa-chevron-right"></i></span></p>
-            </a>
-            <a href="#" class="services__item" data-modal="service-2" style="background-image: url('./images/services/services-2.jpg')">
-                <p class="services__title">Проектирование, строительство сетей и пуско-наладка<span><i class="fa-solid fa-chevron-right"></i></span></p>
-            </a>
-            <a href="#" class="services__item" data-modal="service-3" style="background-image: url('./images/services/services-3.jpg')">
-                <p class="services__title">Интернет рации РоС (Push-to-Talk over Cellular)<span><i class="fa-solid fa-chevron-right"></i></span></p>
-            </a>
-            <a href="#" class="services__item" data-modal="service-4" style="background-image: url('./images/services/services-4.jpg')">
-                <p class="services__title">Авторизованный сервисный центр по ремонту<span><i class="fa-solid fa-chevron-right"></i></span></p>
-            </a>
+        <ul class="breadcrums">
+            <li><a href="#">Любительские рации</a></li>
+            <li><a href="#">Motorola extreme T82</a></li>
+        </ul>
+        <div class="product__wrapper">
+            <div class="product__left">
+                <div class="product__slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="product__slider__item swiper-slide">
+                                <img src="./images/products/product-1.png" alt="product">
+                            </div>
+                            <div class="product__slider__item swiper-slide">
+                                <img src="./images/products/product-1.png" alt="product">
+                            </div>
+                            <div class="product__slider__item swiper-slide">
+                                <img src="./images/products/product-1.png" alt="product">
+                            </div>
+                            <div class="product__slider__item swiper-slide">
+                                <img src="./images/products/product-1.png" alt="product">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__thumbs">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="product__thumbs__item swiper-slide">
+                                <img src="./images/products/product-1.png" alt="product">
+                            </div>
+                            <div class="product__thumbs__item swiper-slide">
+                                <img src="./images/products/product-1.png" alt="product">
+                            </div>
+                            <div class="product__thumbs__item swiper-slide">
+                                <img src="./images/products/product-1.png" alt="product">
+                            </div>
+                            <div class="product__thumbs__item swiper-slide">
+                                <img src="./images/products/product-1.png" alt="product">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product__middle">
+                <h3 class="product__title">Motorola Extreme T82</h3>
+                <div class="product__completeness">Комплектация</div>
+                <ul class="product__completeness__list">
+                    <li>Радиостанция ..................................... 2 шт</li>
+                    <li>Цвет черно оранжевый</li>
+                    <li>Клипса на пояс ................................... 2 шт</li>
+                    <li>Micro USB зарядка ............................. 1 шт</li>
+                    <li>Аккумулятор Ni-MH 800 мАч .......... 2 шт</li>
+                    <li>Гарнитура .............................................. 2 шт</li>
+                    <li>Подвеска ................................................ 2 шт</li>
+                    <li>Переносной чемоданчик ................. 1 шт</li>
+                    <li>Инструкция по эксплуатации</li>
+                </ul>
+
+                <div class="specifications accordion">
+                    <div class="specifications__item">
+                        <button type="button" class="specifications__btn accordion__btn" data-accordion="accordion1">
+                            Характеристики <span><i class="fa-solid fa-chevron-right"></i></span>
+                        </button>
+                        <div class="specifications__block accordion__block" id="accordion1">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam perspiciatis iusto ducimus corporis cumque repellat nesciunt nulla qui odit officia maxime accusantium, soluta quis earum eius est dolores reiciendis aperiam.</p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product__right">
+                <p class="product__price">1.500.000 сум</p>
+                <button type="button" class="product__order" data-toggle="modal" data-target="order">Заказать</button>
+                <ul class="product__paymethods">
+                    <li>Payme</li>
+                    <li>Click</li>
+                    <li>Anor</li>
+                    <li>Allgood</li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>

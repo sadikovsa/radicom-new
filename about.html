@@ -32,6 +32,11 @@
                     <li><a href="./poc.html">Спец.предложения</a></li>
                     <li><a href="./contacts.html">Контакты</a></li>
                 </ul>
+                <ul class="social mobile">
+                    <li><a href="#" aria-label="social"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#" aria-label="social"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#" aria-label="social"><i class="fa-brands fa-telegram"></i></a></li>
+                </ul>
             </nav>
             <div class="header__right">
                 <ul class="social">
@@ -40,7 +45,6 @@
                     <li><a href="#" aria-label="social"><i class="fa-brands fa-telegram"></i></a></li>
                 </ul>
                 <ul class="header__lang">
-                  
                     <li><a href="#">Рус</a></li>
                     <li><a href="#">Eng</a></li>
                     <li><a href="#">Uzb</a></li>
@@ -70,7 +74,10 @@
                 <source src="video/video.mp4" type='video/mp4;'>
             </video>
         </div>
-
+        <h2 class="title mobile">
+            <a href="#" class="back"><i class="fa-solid fa-chevron-left"></i></a>
+           О компании
+        </h2>
         <div class="about__content hidden__content">
             <p><strong>История компании</strong></p>
             <p>Основанная в 2012 году Компания RADIOCOM,</p>
@@ -180,7 +187,7 @@
   <section class="clients">
     <div class="clients__slider">
         <div class="container">
-            <h2 class="clients__title">Нам доаверили связь</h2>
+            <h2 class="clients__title">Наши партнеры</h2>
             <div class="swiper-container swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide clients__item">
@@ -269,6 +276,19 @@
             <div class="map" id="map">
                 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A28f73c1e164368e7a58b2b2218a86884e3dcd25d930b7006cfc4f5b9a64bc35a&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
             </div>
+            <form action="#" class="contacts__form mobile">
+                <h3 class="contacts__form__title">Мы готовы ответить на все ваши вопросы</h3>
+                <label for="name">
+                    <input type="text" name="name" id="name" class="contacts__form__field" placeholder="Имя">
+                </label>
+                <label for="phone">
+                    <input type="tel" name="phone" id="phone" class="contacts__form__field phone" placeholder="Номер телефона">
+                </label>
+                <label for="message">
+                    <input type="text" name="message" id="message" class="contacts__form__field" placeholder="Комментарий">
+                </label>
+                <input type="submit" class="contacts__form__btn" value="Отправить">
+            </form>
             <div class="contacts__right">
                 <div class="contacts__item">
                     <h3 class="contacts__title">ИНФОРМАЦИЯ</h3>
